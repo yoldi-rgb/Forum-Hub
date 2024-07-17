@@ -1,9 +1,9 @@
 spring:
   profile.active: dev
   datasource:
-    url: jdbc:mysql://localhost/forum-hub
-    username: root
-    password: yoldicarrada
+    url: jdbc:mysql:///${DB_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
   jpa:
     show-sql: true
     properties:
