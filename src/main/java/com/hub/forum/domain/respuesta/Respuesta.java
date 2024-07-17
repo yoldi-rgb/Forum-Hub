@@ -25,7 +25,7 @@ public class Respuesta {
     private LocalDateTime fechaDeCreacion;
 
     @ManyToOne
-    @JoinColumn(name = "usuario_topico_id")
+    @JoinColumn(name = "usuario_id")
     private Usuario usuarioDeTopico;
 
     @ManyToOne
